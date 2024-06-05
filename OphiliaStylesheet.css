@@ -1,0 +1,157 @@
+/*
+Student Name: Ophilia Fradarick
+Student ID: 300386351
+*/
+
+@charset "utf-8";
+
+/* *{
+    border: solid;
+} */
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 67%;
+}
+
+header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.maindiv{
+    display: flex;
+}
+
+div.column1{
+    background-color: #7e7658;
+    line-height: 2em;
+    font-size: 0.9em;
+}
+
+div.column1 li{
+    list-style-type:none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+a:link{
+    color: rgb(226, 230, 244);
+    text-decoration: wavy;
+}
+
+a:visited{
+    /* color: rgb(43,59,125); */
+    color: rgb(226, 230, 244);
+}
+
+a:hover{
+    color: rgb(212,35,35);
+}
+
+#title{
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    margin-top: 0.1em;
+    font-size: 35px; 
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#section1 {
+    display: block;
+    float: left;
+    width: 19%;
+    
+}
+
+
+#section2{
+    float: left;
+    width: 76%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+   
+}
+
+section{
+    float: left;
+    width: 57%;
+    margin-top: -25px;
+}
+
+#tour_itinary{
+    float: left;
+    font-size: 0.8em;
+    font-family: 'Century Gothic', sans-serif;
+    justify-content:center;
+    width: 35%;
+}
+
+h2{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1em;
+    padding-left: 55px;
+    font-weight: 500;
+}
+
+p{
+    
+    font-size: 1.2em;
+    text-align: left;
+    font-weight:600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#first_para::first-line{
+    text-transform: uppercase;
+}
+
+blockquote{
+    float: right;
+    font-family:'Comic Sans MS';
+    background-color: #8d8044;
+    color: aliceblue;
+    width: 120px;
+    text-align: center;
+    opacity: 1.65;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px ;
+    padding-left: 30px;
+    padding-right:50px;
+    justify-content: center;
+    margin-right: -10px;
+    border: 1.5px solid;
+    border-color: #000;
+}
+
+
+
+dt {
+    text-align: right;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+dd{
+    text-align: justify;
+    justify-content: center;
+}
+
+footer{
+    clear: both;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    text-align: center;
+    font-size: 0.9em;
+    text-decoration: none;
+    text-emphasis: none;
+    width: 94%;
+}
+
+
